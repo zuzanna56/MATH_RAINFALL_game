@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math game</title>
+    <link href="math_look.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="container">
+        <div id="startContainer">
+            <button id="startButton">Start Game</button>
+            <button id="exitButton">Exit</button>
+        </div>
+        <div id="resultEnd">Score</div>
+
+        <div id="score_help">
+            <span id="question" ></span>
+            <div></div>
+            <span id="result" class="score_info"></span>
+            <span id="life" class="score_info"></span>
+            <span id="hearts-container"></span>
+        </div>
+        <div id="levelContainer">
+            <table id = "level_table">
+            <tr>
+                <td><button id="level_pupil" class="levelButton">Level Pupil</button></td>
+                <td><button id="level_student" class="levelButton">Level Student</button></td>
+                <td><button id="level_professor" class="levelButton">Level Professor</button></td>
+            </tr>
+            <tr>
+                <td><img id="img_pupil" src="../images/pupil.png" class="img_table"></td>
+                <td><img id="img_student" src="../images/student.png" class="img_table"></td>
+                <td><img id="img_professor" src="../images/professor.png" class="img_table"></td>
+            </tr>
+            </table>
+        </div>
+
+
+        <div id="square1" class="square" ></div>
+        <div id="square2" class="square" ></div>
+        <div id="square3" class="square" ></div>
+
+        <div id="basket"></div>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="functions.js"></script>
+    <script src="vars.js"></script>
+    <script src="game.js"></script>
+
+
+
+</body>
+</html>
